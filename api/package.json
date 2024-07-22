@@ -9,6 +9,7 @@
     "start:prod": "NODE_ENV=production node src/index.js",
     "test": "jest",
     "test:watch": "jest --watchAll",
+    "test:integration": "jest --config ./e2e/jest-integration.json --forceExit",
     "test:e2e": "jest --config ./e2e/jest-e2e.json --forceExit",
     "test:e2e-watch": "jest --config ./e2e/jest-e2e.json --watchAll --forceExit",
     "lint": "eslint src/**",
