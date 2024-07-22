@@ -51,7 +51,7 @@ jobs:
   e2e: # job para la base de datos para las pruebas e2e en github actions
     runs-on: ubuntu-latest
     container:
-      image: node:14
+      image: node:20
 
     services:
       mongo-e2e:
